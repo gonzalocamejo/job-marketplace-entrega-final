@@ -33,13 +33,13 @@ npx hardhat run scripts/desplegar.ts --network localhost
 
 El script imprime las direcciones. Copiarlas a `frontend/.env` con las variables `VITE_JOB_MARKETPLACE_ADDRESS` y `VITE_ERC20_TOKEN_ADDRESS`. El `.env.example` tiene la estructura completa.
 
-Para fondear tu wallet con ETH y tokens JTK en la red local, ponés tu dirección en `FONDEAR_WALLET` dentro del `.env` y corrés:
+Para fondear la wallet con ETH y tokens JTK en la red local, poner la dirección en `FONDEAR_WALLET` dentro del `.env` y correr:
 
 ```bash
 npx hardhat run scripts/fondear-cuenta.ts --network localhost
 ```
 
-Eso manda 10 ETH y 1000 JTK a la dirección que configures. El nodo tiene que estar corriendo cuando ejecutás este comando.
+Eso manda 10 ETH y 1000 JTK a la dirección que haya sido configurada en el paso anterior. El nodo tiene que estar corriendo cuando se ejecuta este comando.
 
 Después:
 
