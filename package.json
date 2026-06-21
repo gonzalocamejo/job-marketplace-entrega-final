@@ -1,0 +1,30 @@
+{
+  "name": "job-marketplace-entrega-final",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Job Marketplace on Ethereum — Entrega Final Taller 2",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/desplegar.ts --network hardhat",
+    "deploy:sepolia": "hardhat run scripts/desplegar.ts --network sepolia",
+    "node": "hardhat node",
+    "clean": "hardhat clean",
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.10",
+    "@openzeppelin/contracts": "^5.0.0",
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "^20.14.10",
+    "chai": "^4.4.1",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2",
+    "hardhat": "^2.22.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
