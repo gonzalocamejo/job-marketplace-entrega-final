@@ -17,7 +17,7 @@ npm install
 npx hardhat test
 ```
 
-Tienen que pasar 26 tests. Cubren el happy path completo, los tres tipos de rechazo, expiración, control de acceso por rol, el Multisig como evaluador con threshold 2-de-2, y varios casos borde.
+Pasan los 26 tests. Cubren el happy path completo, los tres tipos de rechazo, expiración, control de acceso por rol, el Multisig como evaluador con threshold 2-de-2, y casos borde.
 
 ## Cómo levantar el frontend localmente
 
